@@ -6,7 +6,7 @@ function RecipeList({ recipes }){
         return <p className="text-center text-xl">No Recipes Found</p>
     }
 
-    const getIngridients = (recipe) => {
+    /*const getIngridients = (recipe) => {
         const ingridients = []
         for (let i = 1; i <= 20; i++ ){
             const ingridient = recipe[`strIngredient${i}`]
@@ -16,7 +16,7 @@ function RecipeList({ recipes }){
             }
         }
         return ingridients
-    }
+    }*/
 
     return(
         <div>
